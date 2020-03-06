@@ -57,6 +57,7 @@ public class Main {
 
         System.out.println(phB1.toString());
 
+        // Вызов индивидуальных записей
         var a = phB1.get("Иванов");
         var b = phB1.get("Lennon");
         System.out.println(a);
